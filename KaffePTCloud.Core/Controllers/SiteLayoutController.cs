@@ -10,5 +10,6 @@ namespace KaffePTCloud.Core.Controllers
         public ActionResult _Footer() => PartialView("~/Views/Partials/SiteLayout/_Footer.cshtml");
         public ActionResult _Scripts() => PartialView("~/Views/Partials/SiteLayout/_Scripts.cshtml");
 
+
     }
 }
