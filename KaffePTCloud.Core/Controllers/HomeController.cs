@@ -19,6 +19,7 @@ namespace KaffePTCloud.Core.Controllers
 
         public ActionResult ContactFormSection() => PartialView("~/Views/Partials/Home/ContactForm.cshtml");
 
+
         public ActionResult ContactSection() => View("~/Views/Contact.cshtml");
 
         public ActionResult Submit(ContactFormViewModel model)
