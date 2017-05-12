@@ -297,7 +297,9 @@
     <Content Include="App_Plugins\UmbracoForms\js\umbraco.forms.js" />
     <Content Include="App_Plugins\UmbracoForms\package.manifest" />
     <Content Include="App_Plugins\UmbracoForms\RazorTemplates\HtmlTable.cshtml" />
-    <Content Include="App_Plugins\UmbracoForms\UmbracoForms.config" />
+    <Content Include="App_Plugins\UmbracoForms\UmbracoForms.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Plugins\UmbracoForms\version" />
     <Content Include="App_Plugins\UmbracoForms\Xslt\DataTables_json.xslt" />
     <Content Include="App_Plugins\UmbracoForms\Xslt\DataTables_json_medtrust.xslt" />
